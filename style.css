@@ -322,7 +322,7 @@ section > .container > p {
     color: #666;
 }
 
-/* ================= FOOTER & FLOATING ================= */
+/* ================= FOOTER & FLOATING WA ================= */
 
 footer {
     background: #2f2f2f;
@@ -357,12 +357,12 @@ footer {
     width: 60px;
     height: 60px;
     background: #25d366;
-    color: white;
+    color: #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
     z-index: 1000;
     transition: transform .3s ease;
 }
@@ -371,10 +371,9 @@ footer {
     transform: scale(1.1);
 }
 
-.floating-wa img {
-    width: 35px;
-    height: 35px;
-    filter: brightness(0) invert(1);
+.floating-wa svg {
+    width: 32px;
+    height: 32px;
 }
 
 /* ================= MEDIA QUERIES (RESPONSIF MOBILE) ================= */
